@@ -828,7 +828,7 @@ def fierce():
 	    os.system('apt update -y && apt upgrade -y')
 	    os.system('apt install git python2 -y')
 	    os.system('pip install --upgrade pip')
-	    os.system('python2 -m pip install dnspython==1.16.0 fierce')
+	    os.system('pip install dnspython==1.16.0 fierce')
 	    print(f"{v}\nINSTALAÇÃO CONCLUIDA ;)")
 	    print(f"User: fierce -h{b}")
 	    backmenu()
