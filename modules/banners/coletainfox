@@ -10,7 +10,7 @@
 [ 10 ] MapEye: Rastreador de localização GPS preciso Android, IOS, Windows phones.
 [ 11 ] Easymap: Atalho do Nmap.
 [ 12 ] BlackBox: Uma estrutura de teste de penetração.
-[ 13 ] XD3v: Ferramenta poderosa que permite conhecer todos os detalhes essenciais sobre o seu telefone.
+[OFF ] XD3v: Ferramenta poderosa que permite conhecer todos os detalhes essenciais sobre o seu telefone.
 [ 14 ] Crips: Esta ferramenta é uma coleção de ferramentas IP on-line que podem ser usadas para obter rapidamente informações sobre endereços IP, páginas da Web e registros DNS.
 [ 15 ] SIR: Resolva da rede o último ip conhecido de um nome Skype.
 [ 16 ] EvilURL: Gere domínios malignos unicode para ataque homógrafo de IDN e detecte-os.
@@ -33,7 +33,7 @@
 [ 33 ] dnsrecon: Avaliação de segurança e solução de problemas de rede.
 [ 34 ] zphisher: Ferramenta automatizada de phishing.
 [ 35 ] Mr.SIP: Ferramenta de auditoria e ataque baseada em SIP.
-[off ] Sherlock: Procure contas de mídia social por nome de usuário.
+[OFF ] Sherlock: Procure contas de mídia social por nome de usuário.
 [ 37 ] userrecon: Encontre nomes de usuário em mais de 75 redes sociais.
 [ 38 ] PhoneInfoga: Uma das ferramentas mais avançadas para escanear números de telefone usando apenas recursos gratuitos.
 [ 39 ] SiteBroker: Um utilitário multiplataforma baseado em python para coleta de informações e automação de testes de penetração.
