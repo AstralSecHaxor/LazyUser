@@ -19,7 +19,7 @@ python lazyscript.py
 
 
 ## Menu inicial
-![Imagem - Menu Inicial](Imagens/Screenshot_20230906_003810_Termux.jpg)
+![Imagem - Menu Inicial](Imagens/Tela_inicial.jpg)
 
 ## Categoria [ a ] Coletar de informações
 ![Tópico - Coletar de informações](Imagens/Screenshot_20230904_234020_Termux.jpg)
