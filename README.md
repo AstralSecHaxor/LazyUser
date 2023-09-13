@@ -18,8 +18,11 @@ python lazyscript.py
 
 
 
-## Menu inicial
+## Menu inicial.
 ![Imagem - Menu Inicial](Imagens/Tela_inicial.jpg)
 
-## Categoria [ a ] Coletar de informações
-![Tópico - Coletar de informações](Imagens/Screenshot_20230904_234020_Termux.jpg)
+## Categoria [ 01 ] Coletar de informações.
+![Tópico - Coletar de informações](Imagens/category_coleta_infox.jpg)
+
+## categoria [ 02 ] Análise de vulnerabilidades.
+![Tópico  - análise de vulnerabilidades](Imagens/category_analise_vulns.jpg)
