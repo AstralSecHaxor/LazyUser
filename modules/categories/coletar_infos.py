@@ -708,7 +708,7 @@ def gathetool():
 	    os.system('mv GatheTOOL {}'.format(CasaDir))
 	    print(f"{v}\nINSTALAÇÃO CONCLUIDA ;) {b}")
 	    backmenu()
-
+def adbtk():
 	if os.path.exists(f"{CasaDir}/ADB-Toolkit") == True:
 def adbtk():
 	    Installed_banner()
