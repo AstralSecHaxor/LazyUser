@@ -846,6 +846,6 @@ def gasmask():
 	    os.system('apt install git python2 -y')
 	    os.system('python2 -m pip install validators python-whois dnspython requests shodan censys')
 	    os.system('git clone https://github.com/twelvesec/gasmask')
-	    os.system('mv gasmask {}'.format(CasaDir)
+	    os.system('mv gasmask {}'.format(CasaDir))
 	    print(f"{v}\nINSTALAÇÃO CONCLUIDA ;) {b}")
 	    backmenu()
