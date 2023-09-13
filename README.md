@@ -12,9 +12,9 @@ A LazyScript foi desenvolvida para o público ético, a ferramenta pode ser muit
 apt update && pkg upgrade -y
 pkg install python -y
 pkg install git -y
-git clone https://github.com/AstralSecHaxor/LazyScript
+git clone https://github.com/AstralSecHaxor/LazyUser/
 cd LazyScript
-python lazyscript.py
+python lazyuser.py
 ```
 
 
