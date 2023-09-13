@@ -8,14 +8,14 @@ O LazyScript é fácil e simples de usar, bastando digitar um comando para insta
 A LazyScript foi desenvolvida para o público ético, a ferramenta pode ser muito útil para descobertas e tarefas de hacking ético. 
 
 # Instalação no emulador de terminal Termux.
-
+```
 apt update && pkg upgrade -y
 pkg install python -y
 pkg install git -y
 git clone https://github.com/AstralSecHaxor/LazyScript
 cd LazyScript
 python lazyscript.py
-
+```
 
 
 ## Menu inicial.
