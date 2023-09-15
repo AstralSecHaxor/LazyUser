@@ -57,6 +57,7 @@ def coletainfox():
         elif infox == "37": inspy()
         elif infox == "38": fierce()
         elif infox == "39": gasmask()
+        elif infox == "40": sherlock()
 	
         elif infox == "": 
             return banner_inicial()
