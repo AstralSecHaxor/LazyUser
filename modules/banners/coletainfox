@@ -1,0 +1,39 @@
+[ 01 ] Nmap: Utilitário para descoberta de rede e auditoria de segurança.
+[ 02 ] Red Hawk: Coleta de informações, verificação de vulnerabilidades e rastreamento.
+[ 03 ] D-TECT: Ferramenta multifuncional para testes de penetração.
+[ 04 ] sqlmap: Ferramenta automática de injeção SQL e controle de banco de dados.
+[ 05 ] Infoga: Ferramenta para coletar informações de contas de e-mail.
+[ 06 ] ReconDog: Ferramenta de coleta de informações e verificação de vulnerabilidades.
+[ 07 ] AndroZenmap: ?
+[ 08 ] sqlmate: Um amigo do SQLmap que fará o que você sempre esperou do SQLmap.
+[ 09 ] AstraNmap: Verificador de segurança usado para localizar hosts e serviços em uma rede de computadores.
+[ 10 ] MapEye: Rastreador de localização GPS preciso Android, IOS, Windows phones.
+[ 11 ] Easymap: Atalho do Nmap.
+[ 12 ] Crips: Esta ferramenta é uma coleção de ferramentas IP on-line que podem ser usadas para obter rapidamente informações sobre endereços IP, páginas da Web e registros DNS.
+[ 13 ] EvilURL: Gere domínios malignos unicode para ataque homógrafo de IDN e detecte-os.
+[ 14 ] Striker: Conjunto de verificação de reconhecimento e vulnerabilidade.
+[ 15 ] Xshell: Conjunto de ferramentas (ToolKit).
+[ 16 ] OWScan: Verificador da Web OVID.
+[ 17 ] OSIF: Informações de código aberto Facebook.
+[ 18 ] Namechk: Ferramenta OSINT baseada em namechk.com para verificar nomes de usuários em mais de 100 sites, fóruns e redes sociais.
+[ 19 ] AUXILE: Estrutura de análise de aplicativos da Web.
+[ 20 ] inther: Coleta de informações usando shodan, censys e hackertarget.
+[ 21 ] GINF: Ferramenta de coleta de informações do GitHub.
+[ 22 ] GPS Tracking: ?
+[ 23 ] ASU: Kit de ferramentas para hackear o Facebook.
+[ 24 ] fim: Downloader de imagens do Facebook.
+[ 25 ] pwnedOrNot: Ferramenta OSINT para encontrar senhas de contas de e-mail comprometidas.
+[ 26 ] dnsrecon: Avaliação de segurança e solução de problemas de rede.
+[ 27 ] zphisher: Ferramenta automatizada de phishing.
+[ 28 ] Mr.SIP: Ferramenta de auditoria e ataque baseada em SIP.
+[ 29 ] userrecon: Encontre nomes de usuário em mais de 75 redes sociais.
+[ 30 ] PhoneInfoga: Uma das ferramentas mais avançadas para escanear números de telefone usando apenas recursos gratuitos.
+[ 31 ] SiteBroker: Um utilitário multiplataforma baseado em python para coleta de informações e automação de testes de penetração.
+[ 32 ] GatheTOOL: Coleta de informações - API hackertarget.com
+[ 33 ] ADB-ToolKit: ?
+[ 34 ] TekDefense-Automater: Automater - URL IP e análise MD5 OSINT.
+[ 35 ] EagleEye: Persiga seus amigos. Encontre seus perfis do Instagram, FB e Twitter usando reconhecimento de imagens e pesquisa reversa de imagens.
+[ 36 ] EyeWitness: EyeWitness foi projetado para fazer capturas de tela de sites, fornecer algumas informações de cabeçalho do servidor e identificar credenciais padrão, se possível.
+[ 37 ] InSpy: Uma ferramenta de enumeração do LinkedIn baseada em python.
+[ 38 ] fierce: Uma ferramenta de reconhecimento de DNS para localizar espaço IP não contíguo.
+[ 39 ] gasmask: Ferramenta de coleta de informações - OSINT.
