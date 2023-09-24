@@ -1,5 +1,7 @@
 # LazyUser
 
+## em desenvolvimento
+
 
 ## Descrição
 LazyUser é uma ferramenta que facilitará o seu dia a dia. Seu objetivo é ajudar você a instalar e usar diversas ferramentas de testes de penetração e hacking no sistema *Android* com facilidade. Ela permite que os usuários instalem e utilizem facilmente uma variedade de ferramentas populares, como *Nmap, Gobuster, SQLMap, MetaSploit, Hash Identify, etc*. 
