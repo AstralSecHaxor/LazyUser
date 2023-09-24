@@ -83,47 +83,48 @@ def banner_inicial():
 {bra}   Selecione categoria da sua ferramenta preferida :) {vd}███    {vlh}███
 {bra}     _________________________________________________{vd}███____█{vlh}██
 {bra}    /                                                 {vd}███    ██{vlh}█
-{bra}    |[ 01 ] Coletar de Informações                            |
-    |                                                        |
-    |[ 02 ] Análise de Vulnerabilidades                       |
-    |                                                        |
-    |[ 03 ] Web Hacking                                       |
-    |                                                        |
-    |[ 04 ] Avaliações de Banco de Dados                      |
-    |                                                        |
-    |[ 05 ] Ataques de Senha                                  |
-    |                                                        |
-    |[ 06 ] Ataques Sem Fio                                   |
-    |                                                        |
-    |[ 07 ] Engenharia Reversa                                |
-    |                                                        |
-    |[ 08 ] Ferramentas de Exploração                         |
-    |                                                        |
-    |[ 09 ] Sniffing e Spoofing                               |
-    |                                                        |
-    |[ 10 ] Ferramentas de Relatórios                         |
-    |                                                        |
-    |[ 11 ] Ferramentas de Forenses                           |
-    |                                                        |
-    |[ 12 ] Teste de Estresse                                 |
-    |                                                        |
-    |[ 13 ] Instalar Distribuições Linux                      |
-    |                                                        |
-    |[ 14 ] Utilitário Termux                                 |
-    |                                                        |
-    |[ 15 ] Análise de Malware                                |
-    |                                                        |
-    |[ 16 ] Ferramentas de Engenharia Social                  |
-    |                                                        |
+{bra}    |[ 01 ] Coletar de Informações                           |
+    |                                                         |
+    |[ 02 ] Análise de Vulnerabilidades                      |
+    |                                                         |
+    |[ 03 ] Web Hacking                                      |
+    |                                                         |
+    |[ 04 ] Avaliações de Banco de Dados                     |
+    |                                                         |
+    |[ 05 ] Ataques de Senha                                 |
+    |                                                         |
+    |[ 06 ] Ataques Sem Fio                                  |
+    |                                                         |
+    |[ 07 ] Engenharia Reversa                               |
+    |                                                         |
+    |[ 08 ] Ferramentas de Exploração                        |
+    |                                                         |
+    |[ 09 ] Sniffing e Spoofing                              |
+    |                                                         |
+    |[ 10 ] Ferramentas de Relatórios                        |
+    |                                                         |
+    |[ 11 ] Ferramentas de Forenses                          |
+    |                                                         |
+    |[ 12 ] Teste de Estresse                                |
+    |                                                         |
+    |[ 13 ] Instalar Distribuições Linux                     |
+    |                                                         |
+    |[ 14 ] Utilitário Termux                                |
+    |                                                         |
+    |[ 15 ] Análise de Malware                               |
+    |                                                         |
+    |[ 16 ] Ferramentas de Engenharia Social                 |
     |                                                         |
     |                                                        |
     |                                                         |
     |                                                        |
     |                                                         |
     |                                                        |
-    |[ 99 ] ~> Shell Reverse             [ X ] ~> Atualização |
-    |[ 00 ] ~> Sair da LazyUser         _____________________/
-     \_________________________________/
+    |                                                         |
+    |                                                        |
+    |[ X ] ~> Atualização                                     |
+    |[ 00 ] ~> Sair da LazyUser    __________________________/
+    \_____________________________/
 
 """)
 
