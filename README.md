@@ -16,6 +16,7 @@ pkg install python -y
 pkg install git -y
 git clone https://github.com/AstralSecHaxor/LazyUser/
 cd LazyUser
+chmod +x install.sh
 python lazyuser.py
 ```
 
