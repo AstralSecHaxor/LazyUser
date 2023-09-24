@@ -79,11 +79,11 @@ def check_proot():
         print(f"""
 {bra}[{vlh}!{bra}]{vlh} Termux-chroot não encontrado. O script não pode ser executado.
     
-  {bra}{am}User{bra}: Utilize esses comandos para evitar erros inesperados antes da execução do script.
   
-    {am}Exemplo{bra}:
-        $ {am}termux-chroot{bra}: Cria um ambiente de chroot temporário no Termux, mudando temporariamente o diretório raiz para um local especificado.
-        $ {am}unset LD_PRELOAD{bra}: Remove a variável LD_PRELOAD para garantir que programas no ambiente de chroot do Termux não usem bibliotecas incompatíveis do sistema host.
+{vlh}Aviso{bra}: Utilize esses comandos para evitar erros inesperados antes da execução do script.
+    Exemplo:
+        $ {am}termux-chroot{bra} :Cria um ambiente de chroot temporário no Termux, mudando temporariamente o diretório raiz para um local especificado.
+        $ {am}unset LD_PRELOAD{bra} :Remove a variável LD_PRELOAD para garantir que programas no ambiente de chroot do Termux não usem bibliotecas incompatíveis do sistema host.
    
    """)
         sys.exit()
