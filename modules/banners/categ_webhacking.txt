@@ -1,0 +1,33 @@
+[01] sqlmap: Automatic SQL injection and database takeover tool
+[02] WebDAV: WebDAV File Upload Exploiter
+[03] MaxSubdoFinder: Tool for Discovering Subdomain
+[04] Webdav Mass Exploit
+[05] Atlas: Quick SQLMap Tamper Suggester
+[06] sqldump: Dump sql result sites with easy
+[07] Websploit: An advanced MiTM Framework
+[08] sqlmate: A friend of SQLmap which will do what you always expected from SQLmap
+[09] inther: Information gathering using shodan, censys and hackertarget
+[10] HPB: HTML Pages Builder
+[11] Xshell: ToolKit
+[12] SH33LL: Shell Scanner
+[13] XAttacker: Website Vulnerability Scanner & Auto Exploiter
+[14] XSStrike: Most advanced XSS Scanner
+[15] Breacher: An advanced multithreaded admin panel finder
+[16] OWScan: OVID Web Scanner
+[17] ko-dork: A simple vuln web scanner
+[18] ApSca: Powerful web penetration application
+[19] amox: Find backdoor or shell planted on a site via dictionary attack
+[20] FaDe: Fake deface with kindeditor, fckeditor and webdav
+[21] AUXILE: Auxile Framework
+[22] xss-payload-list: Cross Site Scripting ( XSS ) Vulnerability Payload List
+[23] Xadmin: Admin Panel Finder
+[24] CMSeeK: CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs
+[25] CMSmap: A python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs
+[26] CrawlBox: Easy way to brute-force web directory
+[27] LFISuite: Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner
+[28] Parsero: Robots.txt audit tool
+[29] Sn1per: Attack Surface Management Platform | Sn1perSecurity LLC
+[30] Sublist3r: Fast subdomains enumeration tool for penetration testers
+[31] WP-plugin-scanner: A tool to list plugins installed on a wordpress powered website
+[32] WhatWeb: Next generation web scanner
+[33] fuxploider: File upload vulnerability scanner and exploitation tool
