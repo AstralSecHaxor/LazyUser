@@ -18,6 +18,7 @@ from os.path import isdir
 
 # Defina códigos de escape ANSI para cores
 vd = "\33[1;36m" # Ciano
+vrd='\033[0;32m'   # Verde
 vlh = "\33[1;31m" #vermelho 
 bra = "\33[1;37m" # branco
 az = "\033[34m" # Azul
