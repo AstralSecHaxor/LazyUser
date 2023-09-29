@@ -9,7 +9,12 @@ O LazyScript é fácil e simples de usar, bastando digitar um comando para insta
 ## aviso
 A LazyScript foi desenvolvida para o público ético, a ferramenta pode ser muito útil para descobertas e tarefas de hacking ético. 
 
-# Instalação no emulador de terminal Termux.
+# comandos de instalação nas plataformas:
+• Debian
+• Ubuntu
+• Kali Linux
+• ParrotOs
+• Emulador Termux
 ```
 apt-get update && apt-get upgrade
 pkg install python -y
