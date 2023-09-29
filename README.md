@@ -25,7 +25,7 @@ chmod +x install.sh
 python lazyuser.py
 ```
  Ser você estive pelo • Termux 
- •Aviso: Utilize esses comandos para evitar erros inesperados antes da execução do script.
+ utilize esses comandos para evitar erros inesperados antes da execução do script.
  
  Exemplo:
 ```      
