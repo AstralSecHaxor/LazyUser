@@ -28,8 +28,9 @@ python lazyuser.py
  •Aviso: Utilize esses comandos para evitar erros inesperados antes da execução do script.
  
  Exemplo:
-```      termux-chroot
-         unset LD_PRELOAD 
+```      
+ termux-chroot
+  unset LD_PRELOAD 
 ```
 ## Menu inicial.
 ![Imagem - Menu Inicial](Imagens/Tela_inicial.jpg)
