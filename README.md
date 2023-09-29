@@ -17,8 +17,8 @@ A LazyScript foi desenvolvida para o público ético, a ferramenta pode ser muit
 • Emulador Termux
 ```
 apt-get update && apt-get upgrade
-pkg install python -y
-pkg install git -y
+apt-get install python -y
+apt-get install git -y
 git clone https://github.com/AstralSecHaxor/LazyUser/
 cd LazyUser
 chmod +x install.sh
