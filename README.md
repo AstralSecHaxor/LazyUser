@@ -29,7 +29,7 @@ python lazyuser.py
  
  Exemplo:
 ```      
- termux-chroot
+  termux-chroot
   unset LD_PRELOAD 
 ```
 ## Menu inicial.
