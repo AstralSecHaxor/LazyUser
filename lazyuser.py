@@ -28,7 +28,7 @@ am = "\033[33m" #Amarelo
 
 def check_proot():
     
-    if isdir("/etc/apt") == True:
+    if isdir("/etc/apt") == False:
         print(f"{bra}[{vrd}*{bra}] {bra}Termux-chroot está ativo.");timeout(1)
         banner_inicial()
         while True:
