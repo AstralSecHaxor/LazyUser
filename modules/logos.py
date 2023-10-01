@@ -40,6 +40,7 @@ def identificar_sistema():
     sistema = mode.system()
     if sistema == "Linux":
         os.system("clear")
+    elif sistema = mode.system("Arch")
         return "Linux"
     else:
         print(f"{vlh}Ferramenta não projetada para esse sistema operacional{bra}")
