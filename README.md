@@ -8,7 +8,7 @@ LazyUser is a tool that will make your daily life easier. Its goal is to assist 
 LazyUser was developed for the ethical audience; the tool can be very useful for ethical hacking discoveries and tasks.
 
 
-##Installation Commands on Various Platforms:
+## Installation Commands on Various Platforms:
 • Debian
 • Ubuntu
 • Kali Linux
