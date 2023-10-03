@@ -7,12 +7,13 @@ LazyUser is a tool that will make your daily life easier. Its goal is to assist 
 ## Disclaimer
 LazyUser was developed for the ethical audience; the tool can be very useful for ethical hacking discoveries and tasks.
 
-# comandos de instalação nas plataformas:
+
+##Installation Commands on Various Platforms:
 • Debian
 • Ubuntu
 • Kali Linux
 • ParrotOs
-• Emulador Termux
+• Termux Emulator
 ```
 apt-get update && apt-get upgrade
 apt-get install python -y
@@ -22,10 +23,10 @@ cd LazyUser
 chmod +x install.sh
 python lazyuser.py
 ```
- Ser você estive pelo • Termux 
- utilize esses comandos para evitar erros inesperados antes da execução do script.
+If you are going to use • Termux
+ Use these commands to avoid unexpected errors before running the script.
  
- Exemplo:
+ Example:
 ```      
   termux-chroot
   unset LD_PRELOAD 
