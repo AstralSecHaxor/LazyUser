@@ -7,13 +7,18 @@ LazyUser is a tool that will make your daily life easier. Its goal is to assist 
 ## Disclaimer
 LazyUser was developed for the ethical audience; the tool can be very useful for ethical hacking discoveries and tasks.
 
+## language used
+![python](https://img.shields.io/badge/Python-3-faea11?labelColor=faea11&style=for-the-badge&logo=python&logoColor=000000&link=https://www.python.org/downloads)
+![shell-script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-## Installation Commands on Various Platforms:
-• Debian
-• Ubuntu
-• Kali Linux
-• ParrotOs
-• Termux Emulator
+## Platforms:
+![Debian](https://img.shields.io/badge/Debian-gnu?style=for-the-badge&logo=Debian&logoColor=%23ca1717ff&color=%23000000ff)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-gnu?style=for-the-badge&logo=Ubuntu&logoColor=%23c1600bff&color=%23000000ff)
+![Static Badge](https://img.shields.io/badge/Kal_linux-gnu?style=for-the-badge&logo=Kali%20linux&color=%23000000ff)
+![Termux](https://img.shields.io/badge/Termux-linux?style=for-the-badge&logo=android&logoColor=%23ffffffff&color=%23000000ff)
+<img loading="lazy" src="src/parrotlogo.jpg" width="110" height="28"/>
+
+## How to install?
 ```
 apt-get update && apt-get upgrade
 apt-get install python -y
