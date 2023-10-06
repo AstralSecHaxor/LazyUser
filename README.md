@@ -36,3 +36,4 @@ If you are going to use • Termux
   termux-chroot
   unset LD_PRELOAD 
 ```
+![help](src/help.mp4)
