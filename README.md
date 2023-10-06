@@ -36,4 +36,4 @@ If you are going to use • Termux
   termux-chroot
   unset LD_PRELOAD 
 ```
-<iframe width="560" height="315" src="src/ex.mp4" frameborder="0" allowfullscreen></iframe>
+![exemplo](src/ex.gif)
