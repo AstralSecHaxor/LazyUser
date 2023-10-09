@@ -24,7 +24,7 @@ apt-get update -y && apt-get upgrade -y
 verificar_sucesso
 
 # Lista de pacotes
-dependencies=("proot" "git" "python" "python3")
+dependencies=("proot" "git" "python3")
 
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
