@@ -30,7 +30,7 @@ dependencies=("proot" "git" "python3")
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
     if dpkg -l | grep -q "^ii.*$package "; then
-        echo -e "\n[${verde}*${reset}]${verde} $package está instalado.${reset}"
+        echo -e "\n[${verde}*${reset}]${amarelo} $package ${verde}está instalado.${reset}"
     else
         ## Fazendo a instalação do pacote
         echo -e "\n[${verde}*${reset}] ${verde}Instalando -->${amarelo} $package... ${reset}"
