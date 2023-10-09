@@ -53,4 +53,4 @@ python3 LazyUser/install.py
 echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
 exit
 
-wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
+#wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
