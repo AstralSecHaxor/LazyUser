@@ -11,8 +11,8 @@ function verificar_sucesso {
   if [ $? -eq 0 ]; then
     echo -e "\n[${verde}*${reset}] ${ciano}Comando executado com sucesso.${reset}"
   else
-    echo -e "\n[${vermelho}!${reset}] Falha na execução do comando."
-    echo -e "\n[${vermelho}!${reset}] Lamento, mas não foi possível continuar :("
+    echo -e "\n[${vermelho}!${reset}]${vermelho} Falha na execução do comando.${reset}"
+    echo -e "\n[${vermelho}!${reset}]${vermelho} Lamento, mas não foi possível continuar :(${reset}"
     exit 1
   fi
 }
@@ -46,9 +46,6 @@ echo -e "\n[${verde}*${reset}]${verde} Clonando o repositório ${amarelo}'LazyUs
 git clone https://github.com/AstralSecHaxor/LazyUser
 # Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
-
-# Você pode descomentar esta linha quando estiver pronto para executar install.py
-# echo -e "\n[${verde}*${reset}] Executando 'install.py'..."
 python3 LazyUser/install.py
 
 echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
