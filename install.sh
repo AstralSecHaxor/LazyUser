@@ -9,18 +9,17 @@ amarelo='\033[33m'   # Amarelo
 # Função para verificar se um comando foi executado com sucesso
 function verificar_sucesso {
   if [ $? -eq 0 ]; then
-    echo -e "\n${reset}[${verde}*${reset}]${verde} Comando executado com sucesso.${reset}"
+    echo -e "\n[${verde}*${reset}] Comando executado com sucesso."
   else
-    echo -e "\n${reset}[${vermelho}!${reset}]${vermelho} Falha na execução do comando.${reset}"
-    echo -e "\n${reset}[${vermelho}!${reset}]${vermelho} Lamento, mas não foi possível continuar :(${reset}"
+    echo -e "\n[${vermelho}!${reset}] Falha na execução do comando."
+    echo -e "\n[${vermelho}!${reset}] Lamento, mas não foi possível continuar :("
     exit 1
   fi
 }
 
 # Atualiza a lista de pacotes e faz o upgrade
-echo -e "\n${reset}[${verde}*${reset}]${verde} Atualizando lista de pacotes e fazendo upgrade...${reset}"
+echo -e "\n[${verde}*${reset}] Atualizando lista de pacotes e fazendo upgrade..."
 apt-get update -y && apt-get upgrade -y
-
 # Verificando se a atualização foi bem-sucedida
 verificar_sucesso
 
@@ -30,22 +29,26 @@ dependencies=("proot" "git" "python3")
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
     if dpkg -l | grep -q "^ii.*$package "; then
-        echo -e "\n${reset}[${verde}*${reset}]${amarelo} $package está instalado.${reset}"
-    else    ## Fazendo a instalação do pacote
-        echo -e "\n${reset}[${verde}*${reset}] ${verde}Instalando --> $package...${reset}"
+        echo -e "\n[${verde}*${reset}] $package está instalado."
+    else
+        ## Fazendo a instalação do pacote
+        echo -e "\n[${verde}*${reset}] Instalando --> $package..."
         # Comando de instalação dos pacotes
         apt-get install -y "$package"
-        git clone https://github.com/AstralSecHaxor/LazyUser
         # Verifique se a instalação foi bem-sucedida
         verificar_sucesso
     fi
 done
 
 # Clona o repositório LazyUser e executa install.py
-echo -e "\n${reset}[${verde}*${reset}]${verde} Clonando o repositório 'LazyUser' e executando 'install.py'...${reset}"
-#python /LazyUser/install.py
-
-# Verificando se a atualização foi bem-sucedida
+echo -e "\n[${verde}*${reset}] Clonando o repositório 'LazyUser' e executando 'install.py'..."
+git clone https://github.com/AstralSecHaxor/LazyUser
+# Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
 
+# Você pode descomentar esta linha quando estiver pronto para executar install.py
+# echo -e "\n[${verde}*${reset}] Executando 'install.py'..."
+# python /LazyUser/install.py
+
+echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
 exit
