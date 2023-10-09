@@ -12,6 +12,10 @@ v = "\33[1;36m" # Ciano
 b = "\33[1;37m" # branco
 
 diretorio = "/usr/bin"
+
+# Lista de diretórios a serem ignorados durante a cópia
+diretorios_ignorados = [".git"]
+
 def executavel():
     os.system(f"rm -rf {diretorio}/UserTool")
     os.system(f"cp -r {diretorio}/LazyUser/modules/UserTool {diretorio}")
@@ -29,7 +33,7 @@ def executavel():
     
     
 def LazyUser():
-    # Pasta a ser cri<ada
+    # Pasta a ser criada
     pasta = "LazyUser"
     pasta_caminho = os.path.join(diretorio, pasta)
     
@@ -48,15 +52,16 @@ def LazyUser():
         destino = os.path.join(pasta_caminho, item)
         
         if os.path.isdir(origem):
-            # Se for uma pasta, copie-a recursivamente
-            shutil.copytree(origem, destino)
+            # Se for uma pasta, copie-a recursivamente, ignorando diretórios específicos
+            if item not in diretorios_ignorados:
+                shutil.copytree(origem, destino)
             
-        
         else:
             # Se for um arquivo, copie-o
             shutil.copy(origem, destino)
     executavel()
 
+# Restante do seu código...
 
 diretorio_termux = "/data/data/com.termux/files/usr/bin"
 
@@ -74,13 +79,11 @@ def executavel_termux():
       - {am}UserTool{bra}
       - {am}usertool{bra}
     """)
-    
-        
 
 def termux_lazyuser():
     # Diretório a ser verificado
     
-    # Pasta a ser cri<ada
+    # Pasta a ser criada
     pasta = "LazyUser"
     pasta_caminho = os.path.join(diretorio_termux, pasta)
     
@@ -99,14 +102,14 @@ def termux_lazyuser():
         destino = os.path.join(pasta_caminho, item)
         
         if os.path.isdir(origem):
-            # Se for uma pasta, copie-a recursivamente
-            shutil.copytree(origem, destino)
+            # Se for uma pasta, copie-a recursivamente, ignorando diretórios específicos
+            if item not in diretorios_ignorados:
+                shutil.copytree(origem, destino)
             
         else:
             # Se for um arquivo, copie-o
             shutil.copy(origem, destino)
     executavel_termux()
-
 
 def verificar_sistema():
     sistema = os.popen('uname -o').read().strip()
