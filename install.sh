@@ -48,7 +48,9 @@ verificar_sucesso
 
 # Você pode descomentar esta linha quando estiver pronto para executar install.py
 # echo -e "\n[${verde}*${reset}] Executando 'install.py'..."
-# python /LazyUser/install.py
+python /LazyUser/install.py
 
 echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
 exit
+
+wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
