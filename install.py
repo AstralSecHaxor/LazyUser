@@ -1,3 +1,4 @@
+
 import os
 import shutil
 
@@ -5,11 +6,7 @@ import shutil
 vd = "\33[1;36m" # Ciano
 vlh = "\33[1;31m" # vermelho 
 bra = "\33[1;37m" # branco
-az = '\033[34m' # Azul
-ma = '\033[35m' # Magento
 am = '\033[33m' # Amarelo 
-v = "\33[1;36m" # Ciano
-b = "\33[1;37m" # branco
 
 diretorio = "/usr/bin"
 
@@ -30,8 +27,7 @@ def executavel():
   - {am}UserTool{bra}
   - {am}usertool{bra}
     """)
-    
-    
+
 def LazyUser():
     # Pasta a ser criada
     pasta = "LazyUser"
@@ -41,7 +37,9 @@ def LazyUser():
     if os.path.exists(pasta_caminho):
         # A pasta existe, então a excluímos
         shutil.rmtree(pasta_caminho)
-        os.mkdir(pasta_caminho)
+    
+    # Agora, criamos a pasta novamente
+    os.mkdir(pasta_caminho)
     
     # Diretório raiz do script
     diretorio_origem = os.path.dirname(os.path.abspath(__file__))
@@ -91,7 +89,9 @@ def termux_lazyuser():
     if os.path.exists(pasta_caminho):
         # A pasta existe, então a excluímos
         shutil.rmtree(pasta_caminho)
-        os.mkdir(pasta_caminho)
+    
+    # Agora, criamos a pasta novamente
+    os.mkdir(pasta_caminho)
     
     # Diretório raiz do script
     diretorio_origem = os.path.dirname(os.path.abspath(__file__))
@@ -128,3 +128,4 @@ def verificar_sistema():
     return "Sistema não identificado"
 
 sistema_atual = verificar_sistema()
+
