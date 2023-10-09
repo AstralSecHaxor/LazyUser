@@ -35,7 +35,7 @@ for package in "${dependencies[@]}"; do
         echo -e "\n${reset}[${verde}*${reset}] ${verde}Instalando --> $package...${reset}"
         # Comando de instalação dos pacotes
         apt-get install -y "$package"
-
+        git clone https://github.com/AstralSecHaxor/LazyUser
         # Verifique se a instalação foi bem-sucedida
         verificar_sucesso
     fi
@@ -43,7 +43,6 @@ done
 
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n${reset}[${verde}*${reset}]${verde} Clonando o repositório 'LazyUser' e executando 'install.py'...${reset}"
-git clone https://github.com/AstralSecHaxor/LazyUser
 #python /LazyUser/install.py
 
 # Verificando se a atualização foi bem-sucedida
