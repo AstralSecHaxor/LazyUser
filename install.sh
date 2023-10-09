@@ -43,7 +43,7 @@ done
 
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n${reset}[${verde}*${reset}]${verde} Clonando o repositório 'LazyUser' e executando 'install.py'...${reset}"
-#git clone https://github.com/AstralSecHaxor/LazyUser/
+git clone https://github.com/AstralSecHaxor/LazyUser/
 cd LazyUser && python3 install.py
 
 # Verificando se a atualização foi bem-sucedida
