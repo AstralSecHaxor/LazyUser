@@ -20,13 +20,7 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 
 ## How to install?
 ```
-apt-get update && apt-get upgrade
-apt-get install python -y
-apt-get install git -y
-git clone https://github.com/AstralSecHaxor/LazyUser/
-cd LazyUser
-chmod +x install.sh
-python lazyuser.py
+wget -O install.sh https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 If you are going to use • Termux
  Use these commands to avoid unexpected errors before running the script.
