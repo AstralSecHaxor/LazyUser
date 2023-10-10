@@ -22,6 +22,12 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 ```
 wget -O install.sh https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh && chmod +x install.sh && ./install.sh
 ```
+## execution commands
+```
+UserTool
+
+usertool
+```
 If you are going to use • Termux
  Use these commands to avoid unexpected errors before running the script.
  
