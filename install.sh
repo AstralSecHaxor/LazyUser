@@ -11,7 +11,7 @@ ciano='\033[0;36m'       # Ciano
 branco='\033[0;37m'      # Branco
 reset='\033[0m'          # Reset para a cor padrão
 clear
-echo ""
+echo " "
 echo -e "${ciano} __         ______     ______     __  __                     "
 echo -e "/\ \       /\  __ \   /\___  \   /\ \_\ \                    "
 echo -e "\ \ \____  \ \  __ \  \/_/  /__  \ \____ \     ${ciano}Version ${azul}0.2${ciano}   "
