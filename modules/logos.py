@@ -123,7 +123,7 @@ def banner_inicial():
     |                                                        |
     |                                                         |
     |                                                        |
-    |                                                         |
+    |    deu bom                                                     |
     |                                                        |
     |                                                         |
     |                                                        |
