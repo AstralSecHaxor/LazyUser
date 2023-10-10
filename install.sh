@@ -29,7 +29,7 @@ echo -e "         ${azul}+${magenta}-- -${azul}+${amarelo}=${branco}[ By: Astral
 # Função para verificar se um comando foi executado com sucesso
 function verificar_sucesso {
   if [ $? -eq 0 ]; then
-    echo -e "\n[${verde}*${reset}] ${ciano}A instalação do Tool falhou devido a um erro durante o processo.${reset}"
+    echo -e "\n[${verde}*${reset}] ${ciano}Comando executado com sucesso.${reset}"
   else
     echo -e "\n[${vermelho}!${reset}]${vermelho} Falha na execução do comando.${reset}"
     echo -e "\n[${vermelho}!${reset}]${vermelho} Lamento, mas não foi possível continuar :(${reset}"
