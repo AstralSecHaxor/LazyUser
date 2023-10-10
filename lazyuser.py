@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """_____________________________________________________
 +=[ BY: AstralSec - ALLiSec from BRAZIL :)              
-+=[ Version: 1.0 - beta                                 
++=[ Version 0.2                                         
 +=[ YouTube: https://youtube.com/@AstralSec_Haxor       
 +=[ Github: https://github.com/AstralSecHaxor/LazyUser  
    —————————————————————————————————————————————————————
