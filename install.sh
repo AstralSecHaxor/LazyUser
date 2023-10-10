@@ -1,11 +1,31 @@
 #!/bin/bash
 # SCRIPT DE INSTALAÇÕES DE DEPENDÊNCIAS DO TOOL
 # Defina códigos de escape ANSI para cores
-vermelho='\033[0;31m' # Vermelho
-verde='\033[0;32m'   # Verde
-reset='\033[0m'       # Reset para a cor padrão
-amarelo='\033[33m'   # Amarelo
-ciano='\033[36m'   # Amarelo
+
+vermelho='\033[0;31m'     # Vermelho
+verde='\033[0;32m'       # Verde
+amarelo='\033[0;33m'     # Amarelo
+azul='\033[0;34m'        # Azul
+magenta='\033[0;35m'     # Magenta
+ciano='\033[0;36m'       # Ciano
+branco='\033[0;37m'      # Branco
+reset='\033[0m'          # Reset para a cor padrão
+clear
+echo ""
+echo -e "${ciano} __         ______     ______     __  __                     "
+echo -e "/\ \       /\  __ \   /\___  \   /\ \_\ \                    "
+echo -e "\ \ \____  \ \  __ \  \/_/  /__  \ \____ \     ${ciano}Version ${azul}0.2${ciano}   "
+echo -e " \ \_____\  \ \_\ \_\   /\_____\  \/\_____\                  "
+echo -e "  \/_____/   \/_/\/_/   \/_____/   \/_____/                  "
+echo -e "                 __  __     ______     ______     ______     "
+echo -e "                /\ \/\ \   /\  ___\   /\  ___\   /\  == \    "
+echo -e "                \ \ \_\ \  \ \___  \  \ \  __\   \ \  __<    "
+echo -e "                 \ \_____\  \/\_____\  \ \_____\  \ \_\ \_\  "
+echo -e "                  \/_____/   \/_____/   \/_____/   \/_/ /_/  "
+echo -e "                                                             "
+echo -e "         ${azul}+${magenta}-- -${azul}+${amarelo}=${branco}[ By: AstralSec${vermelho}Haxor${reset} from Brazil ]${amarelo}=${magenta}- --${azul}+${reset}"
+
+
 # Função para verificar se um comando foi executado com sucesso
 function verificar_sucesso {
   if [ $? -eq 0 ]; then
@@ -18,7 +38,6 @@ function verificar_sucesso {
 }
 
 # Atualiza a lista de pacotes e faz o upgrade
-clear
 echo -e "\n\n${reset}[${verde}*${reset}] ${verde}Atualizando lista de pacotes e fazendo upgrade...${reset}"
 apt-get update -y && apt-get upgrade -y
 # Verificando se a atualização foi bem-sucedida
