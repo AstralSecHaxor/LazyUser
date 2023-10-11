@@ -23,6 +23,15 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 ```
 wget -O install.sh https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh && chmod +x install.sh && ./install.sh
 ```
+#### manual installation
+```
+apt-get update && apt-get upgrade
+apt-get install python3 -y
+apt-get install git -y
+git clone https://github.com/AstralSecHaxor/LazyUser
+cd LazyUser
+python install.py
+```
 ## execution commands
 ```
 UserTool
