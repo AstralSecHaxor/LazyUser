@@ -72,6 +72,7 @@ def executavel_termux():
     os.system(f"rm -rf {diretorio_termux}/usertool")
     os.system(f"cp -r {diretorio_termux}/LazyUser/modules/usertool {diretorio_termux}")
     os.system(f"chmod +x {diretorio_termux}/usertool") 
+    os.system(f"cp -r .git {diretorio_termux}/LazyUser")
     print(f"""
 {vlh}Uso:{bra}
       Para invocar a ferramenta, utilize um dos seguintes comandos:
