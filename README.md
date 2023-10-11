@@ -19,7 +19,7 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 <img loading="lazy" src="src/parrotlogo.jpg" width="110" height="28"/>
 
 ## How to install?
-### automatic installation
+#### automatic installation
 ```
 wget -O install.sh https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh && chmod +x install.sh && ./install.sh
 ```
