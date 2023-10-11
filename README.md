@@ -46,4 +46,3 @@ If you are going to use • Termux
   termux-chroot
   unset LD_PRELOAD 
 ```
-![exemplo](src/ex.gif)
