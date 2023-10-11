@@ -121,7 +121,7 @@ def banner_inicial():
     |[ 16 ] Ferramentas de Engenharia Social                 |
     |                                                         |
     |                                                        |
-    |                   atualizando 555                                      |
+    |                   atualiza                                      |
     |                                                        |
     |                                                         |
     |                                                        |
@@ -287,33 +287,5 @@ def sair_do_programar(): ## Sair do script
     print(f"\n\n{v}Você saiu da LazyUser !{b}\n")
     sys.exit()
 
-    ## Fazer atualização  ao script
-def atualizar(): 
-    
-    # Define o diretório de instalação
-    installation_dir = "/usr/bin/LazyUser"  # Substitua pelo caminho correto da sua ferramenta
-    
-    # Verifica se o diretório de instalação existe
-    if os.path.exists(installation_dir):
-        # Acesse o diretório de instalação
-        os.chdir(installation_dir)
-    
-        # Tente atualizar o repositório com os arquivos mais recentes
-        pull_result = subprocess.run(["git", "pull"], capture_output=True, text=True)
-    
-        if pull_result.returncode == 0:
-            # Verifique se a saída do "git pull" contém "Already up to date"
-            if "Already up to date" in pull_result.stdout:
-                print("Nada para atualizar. O repositório já está atualizado.")
-            else:
-                print("Atualização bem-sucedida.")
-    
-                # Torna o script "install.sh" executável (se necessário)
-                subprocess.run(["chmod", "+x", "install.sh"])
-    
-                # Executa o script "install.sh" (se necessário)
-                #subprocess.run(["bash", "install.sh"])
-        else:
-            print("Erro ao atualizar o repositório.")
-    else:
-        print("Diretório de instalação não encontrado. Certifique-se de que o diretório esteja correto.")
+def atualizar(): ## Fazer atualização  ao script
+    os.system("git pull")
