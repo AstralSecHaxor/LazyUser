@@ -121,7 +121,7 @@ def banner_inicial():
     |[ 16 ] Ferramentas de Engenharia Social                 |
     |                                                         |
     |                                                        |
-    |                   atualiza                                      |
+    |                                                         |
     |                                                        |
     |                                                         |
     |                                                        |
