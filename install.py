@@ -21,6 +21,7 @@ def executavel():
     os.system(f"rm -rf {diretorio}/usertool")
     os.system(f"cp -r {diretorio}/LazyUser/modules/usertool {diretorio}")
     os.system(f"chmod +x {diretorio}/usertool") 
+    os.system(f"mv .git {diretorio}")
     print(f"""
     {vlh}Uso:{bra}
   Para invocar a ferramenta, utilize um dos seguintes comandos:
