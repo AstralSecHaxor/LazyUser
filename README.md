@@ -41,7 +41,7 @@ usertool
 If you are going to use • Termux
  Use these commands to avoid unexpected errors before running the script.
  
- Example:
+ #### Example:
 ```      
   termux-chroot
   unset LD_PRELOAD 
