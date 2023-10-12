@@ -8,7 +8,7 @@ LazyUser is a tool that will make your daily life easier. Its goal is to assist 
 LazyUser was developed for the ethical audience; the tool can be very useful for ethical hacking discoveries and tasks.
 
 ## language used
-![python](https://img.shields.io/badge/Python-3-faea11?labelColor=faea11&style=for-the-badge&logo=python&logoColor=#ffffffff)
+![python](https://img.shields.io/badge/Python-3-faea11?labelColor=faea11&style=for-the-badge&logo=python&logoColor=000000&link=https://www.python.org/downloads)
 ![shell-script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ## Platforms:
@@ -23,7 +23,7 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 ```
 curl -sL https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh | bash
 ```
-#### ou
+#### manual installation
 ```
 apt-get update && apt-get upgrade
 apt-get install python3 -y
