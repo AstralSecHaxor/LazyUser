@@ -63,10 +63,11 @@ done
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n[${verde}*${reset}]${verde} Clonando o repositório ${amarelo}'LazyUser'${verde} e executando ${amarelo}'install.py'${verde}...${reset}"
 git clone https://github.com/AstralSecHaxor/LazyUser
+
 # Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
-python3 LazyUser/install.py
-
+python3 LazyUser/install.py 
+rm -rf LazyUser
 echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
 exit
 
