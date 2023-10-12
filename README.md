@@ -21,9 +21,9 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 ## How to install?
 #### automatic installation
 ```
-wget -O install.sh https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh && chmod +x install.sh && ./install.sh
+curl -sL https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh | bash
 ```
-#### manual installation
+#### ou
 ```
 apt-get update && apt-get upgrade
 apt-get install python3 -y
