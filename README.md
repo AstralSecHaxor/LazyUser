@@ -23,7 +23,7 @@ LazyUser was developed for the ethical audience; the tool can be very useful for
 ```
 curl -sL https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh | bash
 ```
-#### manual installation
+#### ou
 ```
 apt-get update && apt-get upgrade
 apt-get install python3 -y
