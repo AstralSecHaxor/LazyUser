@@ -149,6 +149,7 @@ def analise_vulnerabilidades():
         else:
             return analise_vulnerabilidades()
             
+            
     except ValueError:
         print(f"\n{vlh}Ups! {bra}'{analise_vuln}' {vlh}Insira apenas números");timeout(1)
         return analise_vulnerabilidades()
