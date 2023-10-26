@@ -141,10 +141,10 @@ def analise_vulnerabilidades():
                 return analise_vulnerabilidades()
         backmenu() 
         lazy = input(f"{vd}┬─{az}[{am}A.S.H{vlh}♘{bra}{sistema_atual}{az}]{vd}─{az}[{ma}~/Análise Vulnerabilidades{az}]\n{vd}╰─>{vlh}$ {bra}")  # input pós instalação 
-        option_control  = lazy.replace(" ", "")
-        if option_control == "00" or option_control == "0":
+        option_voltar  = lazy.replace(" ", "")
+        if option_voltar == "00" or option_voltar == "0":
             sair_do_programar()
-        elif option_control == "":
+        elif option_voltar == "":
             return analise_vulnerabilidades()
         else:
             analise_vulnerabilidades()
