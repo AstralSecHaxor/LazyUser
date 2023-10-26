@@ -147,7 +147,7 @@ def analise_vulnerabilidades():
         elif option_voltar == "":
             return analise_vulnerabilidades()
         else:
-            analise_vulnerabilidades()
+            return analise_vulnerabilidades()
             
             
     except ValueError:
