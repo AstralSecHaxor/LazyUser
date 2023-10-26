@@ -146,6 +146,8 @@ def analise_vulnerabilidades():
             sair_do_programar()
         elif option_control == "":
             return analise_vulnerabilidades()
+        else:
+            return analise_vulnerabilidades()
             
     except ValueError:
         print(f"\n{vlh}Ups! {bra}'{analise_vuln}' {vlh}Insira apenas números");timeout(1)
