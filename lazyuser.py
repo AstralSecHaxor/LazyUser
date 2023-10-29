@@ -15,6 +15,16 @@
 #  Certifique-se de utilizar este tool de maneira ética e legal, respeitando todas as leis e regulamentos aplicáveis. 
 #  Ao utilizar este tool, você concorda em fazê-lo de acordo com todas as leis e regulamentos vigentes em sua jurisdição.
 
+# ---------> WARNING <--------- #
+
+# The use of this tool is entirely your responsibility.
+# This tool has been developed for specific and lawful purposes, such as security testing and awareness.
+# Any misuse or illegal use of this tool is strictly prohibited.
+# The developer of this tool does not assume responsibility for any consequences arising from the improper, illegal, or unethical use of this tool.
+# Ensure that you use this tool ethically and legally, respecting all applicable laws and regulations.
+# By using this tool, you agree to do so in accordance with all current laws and regulations in your jurisdiction.
+
+
 import os
 from time import sleep as timeout
 from modules.gerenciador import *
