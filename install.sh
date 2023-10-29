@@ -6,6 +6,7 @@
 # +=[ Github: https://github.com/AstralSecHaxor/LazyUser  
 #  —————————————————————————————————————————————————————
 
+
 # SCRIPT DE INSTALAÇÕES DE DEPENDÊNCIAS DO TOOL
 
 
