@@ -1,14 +1,20 @@
 #!/usr/bin/env python
-"""_____________________________________________________
-+=[ BY: AstralSec from BRAZIL                           
-+=[ Version 0.2                                         
-+=[ YouTube: https://youtube.com/@AstralSec_Haxor       
-+=[ Github: https://github.com/AstralSecHaxor/LazyUser  
-   —————————————————————————————————————————————————————
-SCRIPT DO USUÁRIO 
-AQUI ESTARÃO TODAS AS FUNÇÕES DAS CATEGORIAS 
-QUE O USUÁRIO USARÁ PARA NAVEGAR PELO TOOL."
-"""
+#  _____________________________________________________
+# +=[ BY: AstralSec from BRAZIL                           
+# +=[ Version 0.2                                         
+# +=[ YouTube: https://youtube.com/@AstralSec_Haxor       
+# +=[ Github: https://github.com/AstralSecHaxor/LazyUser  
+#  —————————————————————————————————————————————————————
+
+# ---------> AVISO <--------- #
+
+#  O uso deste tool é estritamente de sua responsabilidade. 
+#  Este tool foi desenvolvido para fins específicos e legais, como testes de segurança e conscientização. 
+#  Qualquer uso indevido ou ilegal deste tool é expressamente proibido. 
+#  O desenvolvedor deste tool não se responsabiliza por quaisquer consequências decorrentes do uso inadequado, ilegal ou antiético deste tool. 
+#  Certifique-se de utilizar este tool de maneira ética e legal, respeitando todas as leis e regulamentos aplicáveis. 
+#  Ao utilizar este tool, você concorda em fazê-lo de acordo com todas as leis e regulamentos vigentes em sua jurisdição.
+
 import os
 from time import sleep as timeout
 from modules.gerenciador import *
