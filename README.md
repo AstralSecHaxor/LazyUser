@@ -4,8 +4,9 @@
 
 ## Description
 LazyUser is a tool that will make your daily life easier. Its goal is to assist you in installing and using various penetration testing and hacking tools on the *Android* system with ease. It allows users to easily install and use a variety of popular tools such as *Nmap, Gobuster, SQLMap, MetaSploit, Hash Identify, etc*. LazyUser is easy and straightforward to use, simply by typing a command to install and use any of the tools.
-## Disclaimer
-LazyUser was developed for the ethical audience; the tool can be very useful for ethical hacking discoveries and tasks.
+
+# Terms of Use
+If you chose to install this tool, it is crucial that you are aware that you take full responsibility for any misuse or illegal use of it.
 
 ## language used
 ![python](https://img.shields.io/badge/Python-3-faea11?labelColor=faea11&style=for-the-badge&logo=python&logoColor=000000&link=https://www.python.org/downloads)
@@ -38,6 +39,3 @@ LazyUser
 
 lazyuser
 ```
-
-# Terms of Use
-If you chose to install this tool, it is crucial that you are aware that you take full responsibility for any misuse or illegal use of it.
