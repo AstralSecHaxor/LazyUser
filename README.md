@@ -24,7 +24,7 @@ If you chose to install this tool, it is crucial that you are aware that you tak
 ```
 curl -sL https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.sh | bash
 ```
-#### ou
+#### or
 ```
 apt-get update && apt-get upgrade
 apt-get install python3 -y
