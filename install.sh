@@ -1,6 +1,13 @@
 #!/bin/bash
-# SCRIPT DE INSTALAÇÕES DE DEPENDÊNCIAS DO TOOL
-# Defina códigos de escape ANSI para cores
+"""_____________________________________________________
++=[ BY: AstralSecHaxor from BRAZIL                           
++=[ Version 0.2                                         
++=[ YouTube: https://youtube.com/@AstralSec_Haxor       
++=[ Github: https://github.com/AstralSecHaxor/LazyUser  
+   —————————————————————————————————————————————————————
+ SCRIPT DE INSTALAÇÕES DE DEPENDÊNCIAS DO TOOL
+
+"""
 vermelho='\033[0;31m'     # Vermelho
 verde='\033[0;32m'       # Verde
 amarelo='\033[0;33m'     # Amarelo
@@ -62,8 +69,6 @@ done
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} ${ciano}e executando ${amarelo}'install.py'${verde}...${reset}"
 git clone https://github.com/AstralSecHaxor/LazyUser
-
-# Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
 python3 LazyUser/install.py 
 #rm -rf LazyUser
