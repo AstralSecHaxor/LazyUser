@@ -38,3 +38,6 @@ LazyUser
 
 lazyuser
 ```
+
+# Terms of Use
+If you chose to install this tool, it is crucial that you are aware that you take full responsibility for any misuse or illegal use of it.
