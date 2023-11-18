@@ -33,7 +33,7 @@ apt-get install python3 -y
 apt-get install git -y
 git clone https://github.com/AstralSecHaxor/LazyUser
 cd LazyUser
-python install.py
+python setup.py
 ```
 ## execution commands
 ```
