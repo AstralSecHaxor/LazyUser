@@ -1,7 +1,5 @@
 
 ----------
- LazyUser
------------
  
 ## In development
 
