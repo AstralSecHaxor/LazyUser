@@ -11,7 +11,7 @@ LazyUser is a tool that will make your daily life easier. Its goal is to assist 
 If you chose to install this tool, it is crucial that you are aware that you take full responsibility for any misuse or illegal use of it.
 
 ## language used
-![python](![Static Badge](https://img.shields.io/badge/Python-3.8-dark?style=for-the-badge&logo=%2300000000&logoColor=%2300000000&labelColor=%23000000ff&color=%23000000ff))
+![Python-3](https://img.shields.io/badge/Python-3.8-dark?style=for-the-badge&logo=%2300000000&logoColor=%2300000000&labelColor=%23000000ff&color=%23000000ff)
 ![shell-script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ## Platforms:
