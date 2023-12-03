@@ -66,6 +66,17 @@ for package in "${dependencies[@]}"; do
     fi
 done
 
+# Instalação dos pacotes da lib Pillow
+echo -e "\n[${amarelo}-${reset}] ${verde}Instalando pacotes necessários...${reset}"
+apt install python make wget termux-exec clang libjpeg-turbo freetype -y
+echo -e "\n[${verde}✔${reset}] ${ciano}Pacotes instalados com sucesso.${reset}"
+
+# Instalação da biblioteca Pillow
+echo -e "\n[${amarelo}-${reset}] ${verde}Instalando a biblioteca Pillow...${reset}"
+env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
+verificar_sucesso
+
+
 # instalação de libs
 dependencies=("python-telegram-bot" "requests")
 for package in "${dependencies[@]}"; do
