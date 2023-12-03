@@ -83,9 +83,9 @@ for package in "${dependencies[@]}"; do
 done
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} ${ciano}e executando ${amarelo}'setup.py'${verde}...${reset}"
-#git clone https://github.com/AstralSecHaxor/LazyUser
+git clone https://github.com/AstralSecHaxor/LazyUser
 verificar_sucesso
-python3 area_de_trabalho/LazyUser/setup.py
+python3 LazyUser/setup.py
 #rm -rf LazyUser
 echo -e "\n[${verde}✔${reset}]${ciano}iTudo foi concluído com sucesso!${reset}"
 exit
