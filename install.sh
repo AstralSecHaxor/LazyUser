@@ -67,7 +67,7 @@ for package in "${dependencies[@]}"; do
 done
 
 # instalação de libs
-dependencies=("colores")
+dependencies=("requests")
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
     if command -v "$package" >/dev/null 2>&1; then
