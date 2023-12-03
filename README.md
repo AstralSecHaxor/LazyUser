@@ -34,8 +34,8 @@ apt-get install git -y
 git clone https://github.com/AstralSecHaxor/LazyUser
 cd LazyUser
 python setup.py
-#### ** _Installation of the Pillow library_ **
-```
+
+# Installation of the Pillow library
 apt install python make wget termux-exec clang libjpeg-turbo freetype -y
 env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
 
