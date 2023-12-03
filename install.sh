@@ -67,7 +67,7 @@ for package in "${dependencies[@]}"; do
 done
 
 # instalação de libs
-dependencies=("requests")
+dependencies=("")
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
     if command -v "$package" >/dev/null 2>&1; then
@@ -81,6 +81,7 @@ for package in "${dependencies[@]}"; do
         verificar_sucesso
     fi
 done
+
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} ${ciano}e executando ${amarelo}'setup.py'${verde}...${reset}"
 git clone https://github.com/AstralSecHaxor/LazyUser
