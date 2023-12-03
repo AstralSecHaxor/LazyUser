@@ -50,7 +50,7 @@ echo -e "\n${reset}[${verde}✔${reset}] ${ciano}Atualizando concluída${reset}"
 # Verificando se a atualização foi bem-sucedida
 
 # Lista de pacotes
-dependencies=("git" "python3")
+dependencies=("git" "python3" "pip")
 
 for package in "${dependencies[@]}"; do
     ## Checando se o pacote já foi instalado
