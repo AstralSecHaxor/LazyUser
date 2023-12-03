@@ -66,22 +66,21 @@ for package in "${dependencies[@]}"; do
     fi
 done
 
-# # instalação de libs
-# dependencies=("")
-# for package in "${dependencies[@]}"; do
-#     ## Checando se o pacote já foi instalado
-#     if command -v "$package" >/dev/null 2>&1; then
-#         echo -e "\n[${verde}✔${reset}]${amarelo} $package ${verde}está instalado.${reset}"
-#     else
-#         ## Fazendo a instalação do pacote usando pip
-#         echo -e "\n[${amarelo}-${reset}] ${verde}Instalando -->${amarelo} $package... ${reset}"
-#         # Comando de instalação dos pacotes usando pip
-#         pip install "$package"
-#         # Verifique se a instalação foi bem-sucedida
-#         verificar_sucesso
-#     fi
-# done
-
+# instalação de libs
+dependencies=("python-telegram-bot" "requests")
+for package in "${dependencies[@]}"; do
+    ## Checando se o pacote já foi instalado
+    if command -v "$package" >/dev/null 2>&1; then
+        echo -e "\n[${verde}✔${reset}]${amarelo} $package ${verde}está instalado.${reset}"
+    else
+        ## Fazendo a instalação do pacote usando pip
+        echo -e "\n[${amarelo}-${reset}] ${verde}Instalando -->${amarelo} $package... ${reset}"
+        # Comando de instalação dos pacotes usando pip
+        pip install "$package"
+        # Verifique se a instalação foi bem-sucedida
+        verificar_sucesso
+    fi
+done
 # Clona o repositório LazyUser e executa install.py
 echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} ${ciano}e executando ${amarelo}'setup.py'${verde}...${reset}"
 git clone https://github.com/AstralSecHaxor/LazyUser
