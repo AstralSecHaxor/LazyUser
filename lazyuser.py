@@ -68,40 +68,40 @@ while True:
     elif option_control == "4" or option_control == "04":
         avaliacoes_de_banco_de_dados()
         
-    ## Categoria: Ataque Senhas
-    elif option_control == "5" or option_control == "05":
-        ataque_senhas()
+    # ## Categoria: Ataque Senhas
+    # elif option_control == "5" or option_control == "05":
+    #     ataque_senhas()
     
-    ## Categoria: ataques Sem Fio
-    elif option_control == "6" or option_control == "06":
-        ataque_sem_fio()
+    # ## Categoria: ataques Sem Fio
+    # elif option_control == "6" or option_control == "06":
+    #     ataque_sem_fio()
         
-    elif option_control == "7" or option_control == "07":
-        pass
+    # elif option_control == "7" or option_control == "07":
+    #     pass
     
-    elif option_control == "8" or option_control == "08":
-        pass
+    # elif option_control == "8" or option_control == "08":
+    #     pass
     
-    elif option_control == "9" or option_control == "09":
-        pass
+    # elif option_control == "9" or option_control == "09":
+    #     pass
     
-    elif option_control == "10":
-        pass
+    # elif option_control == "10":
+    #     pass
     
-    elif option_control == "11":
-        pass
+    # elif option_control == "11":
+    #     pass
     
-    elif option_control == "12":
-        pass
+    # elif option_control == "12":
+    #     pass
     
-    elif option_control == "13":
-        pass
+    # elif option_control == "13":
+    #     pass
     
-    elif option_control == "14":
-        pass
+    # elif option_control == "14":
+    #     pass
     
-    elif option_control == "15":
-        pass
+    # elif option_control == "15":
+    #     pass
     
     elif option_control == "16":
          ferramentas_engenharia_social()
