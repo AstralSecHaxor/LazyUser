@@ -38,12 +38,11 @@ cd LazyUser
 python setup.py
 ```
 ##### **_Installation of the necessary libraries_**
-``
+```
 pip install python-telegram-bot
 pip install requests
 apt install python make wget termux-exec clang libjpeg-turbo freetype -y
 env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
-
 ```
 ## execution commands
 ```
