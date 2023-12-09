@@ -32,12 +32,15 @@ curl -sL https://raw.githubusercontent.com/AstralSecHaxor/LazyUser/main/install.
 apt-get update && apt-get upgrade
 apt-get install python3 -y
 apt-get install git -y
+apt-get install pip
 git clone https://github.com/AstralSecHaxor/LazyUser
 cd LazyUser
 python setup.py
 ```
-##### **_Installation of the Pillow library_**
-```
+##### **_Installation of the necessary libraries_**
+``
+pip install python-telegram-bot
+pip install requests
 apt install python make wget termux-exec clang libjpeg-turbo freetype -y
 env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
 
