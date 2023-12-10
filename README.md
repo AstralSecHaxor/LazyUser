@@ -1,3 +1,6 @@
+
+![lazyuser](https://raw.githubusercontent.com/AstralSecHaxor/src-readme/main/lazyuser-fontes/lazyuser.png)
+
 ```
 +------------------+
 | A.S.H - LazyUser |
