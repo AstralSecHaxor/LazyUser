@@ -1,5 +1,5 @@
 
-![lazyuser](https://raw.githubusercontent.com/AstralSecHaxor/src-readme/main/lazyuser-fontes/lazyuser.png)
+![lazyuser](https://raw.githubusercontent.com/AstralSecHaxor/src-readme/main/lazyuser-fontes/LazyUser.png)
 
 ```
 +------------------+
